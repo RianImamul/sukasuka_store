@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1;
+  }
+
+  h2, p {
+    color: black; /* Tanpa !important */
+    text-decoration: none;
+  }
+  
+  a {
+    color: black; /* Pastikan warnanya jelas */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0); /* Memberikan warna khusus saat hover */
+    text-decoration: underline; /* Bisa menambahkan underline saat hover */
+  }
+  
